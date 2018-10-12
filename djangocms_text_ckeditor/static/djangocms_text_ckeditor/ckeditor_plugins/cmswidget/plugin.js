@@ -128,6 +128,23 @@
                     'height: 24px;' +
                     'line-height: 24px;' +
                     'font-size: 14px !important;' +
+                '}' +
+                // Additional styles for oEmbed youtube
+                '.cke_widget_block>.cke_widget_element.oembed-provider-youtube{' +
+                    'position:relative;' +
+                    'display:inline-block;' +
+                    'width:100%;' +
+                    'height:0;' +
+                    'padding-top:56.25%;' +
+                '}' +
+                '.cke_widget_block>.cke_widget_element.oembed-provider-youtube iframe{' +
+                    'position:absolute;' +
+                    'top:0;' +
+                    'bottom:0;' +
+                    'left:0;' +
+                    'right:0;' +
+                    'height:100%;' +
+                    'width:100%;' +
                 '}'
             );
         },
